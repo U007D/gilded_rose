@@ -1,3 +1,6 @@
+#[cfg(test)]
+mod unit_tests;
+
 use std::string;
 use std::vec;
 
@@ -76,5 +79,3 @@ impl GildedRose {
     }
 }
 
-#[cfg(test)]
-mod test;
