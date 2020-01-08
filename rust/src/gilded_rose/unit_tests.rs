@@ -1,10 +1,6 @@
-use super::{Item, GildedRose};
+mod aged_brie;
+mod backstage_pass;
+mod item;
+mod sulfuras;
 
-#[test]
-pub fn foo() {
-    let items = vec![Item::new(String::from("foo"), 0, 0)];
-    let mut rose = GildedRose::new(items);
-    rose.update_quality();
-
-    assert_eq!("foo", rose.items[0].name);
-}
+use super::{GildedRose, Item};
