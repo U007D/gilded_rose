@@ -1,6 +1,7 @@
 mod aged_brie;
 mod backstage_pass;
-mod item;
+mod standard_item;
 mod sulfuras;
 
 use super::{GildedRose, Item};
+use proptest::prelude::*;
