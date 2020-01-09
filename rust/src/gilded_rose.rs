@@ -12,11 +12,7 @@ pub struct Item {
 
 impl Item {
     pub const fn new(name: String, sell_in: i32, quality: i32) -> Self {
-        Self {
-            name,
-            sell_in,
-            quality,
-        }
+        Self { name, sell_in, quality }
     }
 }
 

@@ -1,3 +1,4 @@
+#![allow(clippy::indexing_slicing, clippy::integer_arithmetic)]
 mod aged_brie;
 mod backstage_pass;
 mod standard_item;
