@@ -6,3 +6,7 @@ mod sulfuras;
 
 use super::{GildedRose, Item};
 use proptest::prelude::*;
+use rand::Rng;
+
+const MAX_QUALITY: i32 = 50;
+const MIN_QUALITY: i32 = 0;
